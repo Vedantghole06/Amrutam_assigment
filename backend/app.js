@@ -9,7 +9,7 @@ app.use(cors());
 
 // Import routes (to be added later)
 app.use('/api/auth', require('./routes/auth'));
-// app.use('/api/doctors', require('./routes/doctors'));
+app.use('/api/doctors', require('./routes/doctors'));
 // app.use('/api/appointments', require('./routes/appointments'));
 
 // Health check
